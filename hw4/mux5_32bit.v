@@ -1,0 +1,38 @@
+module mux5_32bit(result,select,forAnd,forOr,forXor,forAdd,forSub);
+input [31:0] forAnd,forOr,forXor,forAdd,forSub;
+input [3:0] select;
+output [31:0] result;
+
+Mux8 res0(result[0],select,forAnd[0],forOr[0],forAdd[0],forXor[0],forSub[0]);
+Mux8 res1(result[1],select,forAnd[1],forOr[1],forAdd[1],forXor[1],forSub[1]);
+Mux8 res2(result[2],select,forAnd[2],forOr[2],forAdd[2],forXor[2],forSub[2]);
+Mux8 res3(result[3],select,forAnd[3],forOr[3],forAdd[3],forXor[3],forSub[3]);
+Mux8 res4(result[4],select,forAnd[4],forOr[4],forAdd[4],forXor[4],forSub[4]);
+Mux8 res5(result[5],select,forAnd[5],forOr[5],forAdd[5],forXor[5],forSub[5]);
+Mux8 res6(result[6],select,forAnd[6],forOr[6],forAdd[6],forXor[6],forSub[6]);
+Mux8 res7(result[7],select,forAnd[7],forOr[7],forAdd[7],forXor[7],forSub[7]);
+Mux8 res8(result[8],select,forAnd[8],forOr[8],forAdd[8],forXor[8],forSub[8]);
+Mux8 res9(result[9],select,forAnd[9],forOr[9],forAdd[9],forXor[9],forSub[9]);
+Mux8 res10(result[10],select,forAnd[10],forOr[10],forAdd[10],forXor[10],forSub[10]);
+Mux8 res11(result[11],select,forAnd[11],forOr[11],forAdd[11],forXor[11],forSub[11]);
+Mux8 res12(result[12],select,forAnd[12],forOr[12],forAdd[12],forXor[12],forSub[12]);
+Mux8 res13(result[13],select,forAnd[13],forOr[13],forAdd[13],forXor[13],forSub[13]);
+Mux8 res14(result[14],select,forAnd[14],forOr[14],forAdd[14],forXor[14],forSub[14]);
+Mux8 res15(result[15],select,forAnd[15],forOr[15],forAdd[15],forXor[15],forSub[15]);
+Mux8 res16(result[16],select,forAnd[16],forOr[16],forAdd[16],forXor[16],forSub[16]);
+Mux8 res17(result[17],select,forAnd[17],forOr[17],forAdd[17],forXor[17],forSub[17]);
+Mux8 res18(result[18],select,forAnd[18],forOr[18],forAdd[18],forXor[18],forSub[18]);
+Mux8 res19(result[19],select,forAnd[19],forOr[19],forAdd[19],forXor[19],forSub[19]);
+Mux8 res20(result[20],select,forAnd[20],forOr[20],forAdd[20],forXor[20],forSub[20]);
+Mux8 res21(result[21],select,forAnd[21],forOr[21],forAdd[21],forXor[21],forSub[21]);
+Mux8 res22(result[22],select,forAnd[22],forOr[22],forAdd[22],forXor[22],forSub[22]);
+Mux8 res23(result[23],select,forAnd[23],forOr[23],forAdd[23],forXor[23],forSub[23]);
+Mux8 res24(result[24],select,forAnd[24],forOr[24],forAdd[24],forXor[24],forSub[24]);
+Mux8 res25(result[25],select,forAnd[25],forOr[25],forAdd[25],forXor[25],forSub[25]);
+Mux8 res26(result[26],select,forAnd[26],forOr[26],forAdd[26],forXor[26],forSub[26]);
+Mux8 res27(result[27],select,forAnd[27],forOr[27],forAdd[27],forXor[27],forSub[27]);
+Mux8 res28(result[28],select,forAnd[28],forOr[28],forAdd[28],forXor[28],forSub[28]);
+Mux8 res29(result[29],select,forAnd[29],forOr[29],forAdd[29],forXor[29],forSub[29]);
+Mux8 res30(result[30],select,forAnd[30],forOr[30],forAdd[30],forXor[30],forSub[30]);
+Mux8 res31(result[31],select,forAnd[31],forOr[31],forAdd[31],forXor[31],forSub[31]);
+endmodule
